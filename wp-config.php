@@ -19,10 +19,10 @@
 define('DB_NAME', 'bitnami_wordpress');
 
 /** MySQL database username */
-define('DB_USER', 'bn_wordpress');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', '2594b2f31b');
+define('DB_PASSWORD', 'G4fYt1a3');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost:3306');
@@ -91,4 +91,3 @@ if ( !defined('ABSPATH') )
 require_once(ABSPATH . 'wp-settings.php');
 
 define('WP_TEMP_DIR', '/Applications/wordpress-4.2.4-0/apps/wordpress/tmp');
-
